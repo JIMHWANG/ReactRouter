@@ -1,0 +1,232 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+    width: 1200px;
+    margin: auto;    
+}
+
+.header{
+    border-bottom: 2px solid black;
+    font-size: 80px;
+    padding-bottom: 24px;
+    font-family: sans-serif;
+}
+
+img{
+    margin-top: 48px;
+    margin-bottom: 48px;
+    width: 324px;
+}
+
+.headerInner h2{    
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.headerInner h2 span{
+    color: #A00404;
+    font-family: sans-serif;
+    font-size: 24px;    
+}
+
+.profile{
+    margin-bottom: 60px;
+    font-family: sans-serif;
+    line-height: 45px;
+    font-size: 24px;   
+}
+
+.profile1{
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.profile2{    
+    margin-bottom: 72px;
+}
+
+.education{
+    margin-bottom: 72px;
+    font-size: 24px;
+}
+
+.education1{
+    margin-top: 16px;
+    margin-bottom: 72px;
+}
+
+.education1 p{
+    margin-bottom: 24px;
+}
+
+.education2{
+    background-color: #415165;
+    color: white;
+    text-align: center;    
+    font-family: sans-serif;
+    padding-top: 24px; 
+    padding-bottom: 52px;           
+}
+
+.edu2header{
+    border-bottom: 1px solid white;
+    width: 996px;
+    margin: auto;
+    padding-bottom: 10px;
+    font-size: 32px;    
+}
+
+.edu2header span{
+    margin-left: 16px;
+    color: #FFFFFF;
+    font-size: 24px;
+}    
+
+.edu2content{
+    border-left: 1px solid white;
+    width: 216px;
+    margin: auto;
+    font-size: 24px;
+    margin-top: 40px;    
+}
+
+.edu2content p{
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 24px;
+    font-weight: normal;
+}
+
+.work{
+    margin-bottom: 76px;
+}
+
+.workWrap{
+    border-left: 1px solid #96A9C4;  
+    padding-left: 24px;
+    margin-left: 24px;
+    font-family: sans-serif;
+    margin-top: 16px;
+}
+
+.workWrap img{
+    width: 75px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.work2{
+    font-weight: bold;    
+    font-size: 24px;
+}
+
+.work3{
+    width: 642px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.work4 p{
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.work5{
+    font-size: 20px;
+}
+
+.footer{
+    background-color: #415165;
+    text-align: center;
+    padding-top: 24px;    
+    font-family: sans-serif;  
+    color: white;
+}
+
+.contact{
+    width: 1200px;
+    margin: auto;
+}
+
+.contactheader p{
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 8px;
+    font-size: 32px;
+    margin-bottom: 32px;            
+}
+
+.contactheader span{
+    color: white;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+.mail{
+    font-size: 24px; 
+    margin-top: 32px;    
+}
+
+.mail p{
+    margin-top: 16px;
+    color: white;
+}
+
+.mail img{
+    margin-right: 24px;
+    margin-top: 20px;
+    width: 48px;
+}
+
+
+
