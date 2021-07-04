@@ -52,19 +52,28 @@ table {
     margin: auto;
 }
 
-main{
-    display: flex;
-}
-
-.news {
-    li {
-        display: flex;
-    }
-}
-
-/* .news li{
+.news li{
     display: flex;
     margin-bottom: 1.5rem;
-} */
+}
+
+.content{
+    width: 288px;
+    padding: 0 1.25rem;
+}
+
+.content h2{
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.content p{
+    line-height: 1.5;
+}
+
+.footer p{
+    line-height: 1.5;
+    padding: 3rem 0;
+}
 
 
