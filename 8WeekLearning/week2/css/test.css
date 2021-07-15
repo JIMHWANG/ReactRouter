@@ -47,49 +47,29 @@ table {
 	border-spacing: 0;
 }
 
-img{
-	display: block;
+.box{
+    /* width: 500px; */
+    height: 625px;
+    background-image: url(https://images.unsplash.com/photo-1626234788334-d94521b0be60?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    background-size: contain;
 }
 
-.wrap{
-	width: 640px;
-	margin: auto;
+/* h1{
+    float: left;
+    font-family: 'Roboto', sans-serif;
 }
 
-.news{
-	display: flex;
-	margin-bottom: 24px;
-}
-
-.news-list li{
-	display: flex;
-}
-
-.news-list li:first-of-type{
-	margin-bottom: 24px;
-}
-
-.news-item{
-	margin: 0 20px;
-}
-
-.news-item h2{
-	font-size: 20px;
-	line-height: 1.2;
-}
-
-.news-item p{
-	font-size: 16px;
-	line-height: 1.5;
-}
-
-.footer{
-	font-size: 16px;
-	line-height: 1.5;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 48px 0;
-}
-
-
+h1 a{
+    font-size: 50px;
+    background-image: url(../img/logo.png);
+    width: 1500px;
+    height: 310px;
+    display: flex;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}   */
+  
+  
