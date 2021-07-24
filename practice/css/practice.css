@@ -47,45 +47,16 @@ table {
 	border-spacing: 0;
 }
 
-img{
-	display: block;
+.header h1{
+  float: left;
 }
 
-.wrap{
-	width: 640px;
-	margin: 0 auto;
+.header h1 a{
+  background-image: url(../img/hex\ log.JPG);
+  width: 337px;
+  height: 88px;
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
 }
-
-.news{
-	display: flex;
-	margin-bottom: 24px;
-}
-
-.news-list li{
-	display: flex;
-}
-
-.news-list li:first-of-type{
-	margin-bottom: 24px;
-}
-
-.news-item{
-	margin: 0 20px;
-}
-
-.news-item h2{
-	font-size: 20px;
-	line-height: 1.2;
-}
-
-.news-item p{
-	line-height: 1.5;
-}
-
-.footer{
-	line-height: 1.5;
-	padding: 48px 0;
-	text-align: center;
-}
-
-

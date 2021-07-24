@@ -52,6 +52,13 @@ img{
 	display: block;
 }
 
+.skills-footer-h2{
+	font-size: 32px;
+	font-weight: bold;	
+	padding-bottom: 8px;
+	border-bottom: 2px solid #fff;
+}
+
 .wrap{
     width: 1200px;
     margin: 0 auto;    
@@ -64,7 +71,6 @@ img{
 }
 
 .person-img{
-	display: block;
 	margin: 48px 0;
 }
 
@@ -128,7 +134,7 @@ img{
 }
 
 .skills ul{
-	border-left: 1px solid #fff;
+	border-left: 1px solid #96A9C4;
 	font-size: 24px;
 	padding-left: 24px;
 }
@@ -138,17 +144,19 @@ img{
 }
 
 .skills h2{
-	width: 996px;
-	font-size: 32px;
-	font-weight: bold;
+	width: 996px;	
 	text-align: center;
-	padding-bottom: 8px;
 	margin-bottom: 37px;
-	border-bottom: 2px solid #fff;
 }
 
 .skills h2 span{
 	font-size: 24px;
+}
+
+.experience-list{
+	border-left: 2px solid #96A9C4;
+	margin-left: 20px;
+	padding-left: 15px;
 }
 
 .experience-list li{
@@ -183,12 +191,8 @@ img{
 
 .footer h2{
 	width: 1200px;
-	font-size: 32px;
 	line-height: 1.4;
-	font-weight: bold;	
-	padding-bottom: 8px;
 	margin-bottom: 16px;
-	border-bottom: 2px solid #fff;
 }
 
 .footer h2 span{
